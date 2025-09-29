@@ -1,0 +1,39 @@
+
+Gurobi 11.0.3 (linux64) logging started Mon Dec  2 17:12:32 2024
+
+Set parameter LogFile to value "POU14119A2_amplicon5_model.log"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (linux64 - "Rocky Linux 8.10 (Green Obsidian)")
+
+CPU model: Intel(R) Xeon(R) Platinum 8268 CPU @ 2.90GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 48 physical cores, 48 logical processors, using up to 32 threads
+
+Academic license 2593743 - for non-commercial use only - registered to vu___@unsw.edu.au
+Optimize a model with 150 rows, 115 columns and 395 nonzeros
+Model fingerprint: 0xfdf629c9
+Model has 5 quadratic objective terms
+Model has 32 quadratic constraints
+Variable types: 5 continuous, 110 integer (65 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  QMatrix range    [1e+00, 4e+05]
+  QLMatrix range   [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  QObjective range [3e-01, 3e-01]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+  QRHS range       [1e+00, 3e+06]
+Presolve removed 120 rows and 70 columns
+Presolve time: 0.01s
+Presolved: 152 rows, 90 columns, 420 nonzeros
+Variable types: 10 continuous, 80 integer (35 binary)
+Found heuristic solution: objective 1.0000000
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds (0.00 work units)
+
+Explored 1 nodes (0 simplex iterations) in 1.66 seconds (0.00 work units)
+Thread count was 32 (of 48 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%

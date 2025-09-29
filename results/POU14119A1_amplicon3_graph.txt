@@ -1,0 +1,8 @@
+SequenceEdge: StartPosition, EndPosition, PredictedCN, AverageCoverage, Size, NumberOfLongReads
+sequence	chr2:126294400-	chr2:126917180+	6.771657	136.769532	622781	28467
+sequence	chr2:126917181-	chr2:126919695+	0.002014	0.038569	2515	128
+sequence	chr2:126919696-	chr2:128339385+	6.771657	129.305678	1419690	63500
+BreakpointEdge: StartPosition->EndPosition, PredictedCN, NumberOfLongReads
+concordant	chr2:126917180+->chr2:126917181-	0.002014	1
+concordant	chr2:126919695+->chr2:126919696-	0.002014	1
+discordant	chr2:126919696-->chr2:126917180+	6.769644	102

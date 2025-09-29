@@ -1,0 +1,5 @@
+Interval	1	chr13	72973003	73348002
+List of cycle segments
+Segment	1	chr13	72973003	73348002
+List of longest subpath constraints
+Cycle=1;Copy_count=7.506002268359754;Segments=0+,1+,0-;Path_constraints_satisfied=

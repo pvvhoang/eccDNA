@@ -1,0 +1,44 @@
+
+Gurobi 11.0.3 (linux64) logging started Mon Dec  2 17:12:29 2024
+
+Set parameter LogFile to value "POU14119A2_amplicon4_model.log"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (linux64 - "Rocky Linux 8.10 (Green Obsidian)")
+
+CPU model: Intel(R) Xeon(R) Platinum 8268 CPU @ 2.90GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 48 physical cores, 48 logical processors, using up to 32 threads
+
+Academic license 2593743 - for non-commercial use only - registered to vu___@unsw.edu.au
+Optimize a model with 620 rows, 460 columns and 1650 nonzeros
+Model fingerprint: 0x617cf946
+Model has 30 quadratic objective terms
+Model has 148 quadratic constraints
+Variable types: 10 continuous, 450 integer (270 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  QMatrix range    [1e+00, 1e+06]
+  QLMatrix range   [1e+00, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  QObjective range [3e-04, 2e-01]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+00]
+  QRHS range       [2e-03, 1e+07]
+Presolve removed 430 rows and 260 columns
+Presolve time: 0.02s
+Presolved: 835 rows, 480 columns, 2380 nonzeros
+Variable types: 40 continuous, 440 integer (140 binary)
+Found heuristic solution: objective 10.0002229
+
+Root relaxation: objective 1.000223e+00, 36 iterations, 0.04 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.0002229    1.00022  0.00%     -    2s
+
+Explored 1 nodes (40 simplex iterations) in 2.26 seconds (0.03 work units)
+Thread count was 32 (of 48 available processors)
+
+Solution count 2: 1.00022 10.0002 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000222869747e+00, best bound 1.000222869747e+00, gap 0.0000%

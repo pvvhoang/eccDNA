@@ -1,0 +1,5 @@
+Interval	1	chr1	146154562	146619558
+List of cycle segments
+Segment	1	chr1	146154562	146619558
+List of longest subpath constraints
+Cycle=1;Copy_count=5.766650088402323;Segments=0+,1+,0-;Path_constraints_satisfied=

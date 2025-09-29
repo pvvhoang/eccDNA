@@ -1,0 +1,16 @@
+Interval	1	chr1	149164537	150904524
+List of cycle segments
+Segment	1	chr1	149164537	150379876
+Segment	2	chr1	150379877	150449212
+Segment	3	chr1	150449213	150454954
+Segment	4	chr1	150454955	150526383
+Segment	5	chr1	150526384	150655537
+Segment	6	chr1	150655538	150713045
+Segment	7	chr1	150713046	150801829
+Segment	8	chr1	150801830	150803638
+Segment	9	chr1	150803639	150904524
+List of longest subpath constraints
+Path constraint	1	7+,8+,9+	Support=1	Satisfied
+Cycle=1;Copy_count=3.0002814924766734;Segments=0+,1+,2+,3+,4+,5+,6+,7+,8-,7-,6-,5-,4-,3-,4+,5+,6+,7+,8+,9+,0-;Path_constraints_satisfied=1
+Cycle=2;Copy_count=1.9472735564747268;Segments=0+,1+,5-,4-,3+,4+,5+,6+,7+,8+,7-,6-,5-,4-,3-,2-,1-,0-;Path_constraints_satisfied=
+Cycle=3;Copy_count=1.4883047975862027;Segments=3+,4+,5+,6+,7+,8+,7-,5+,6+,7+,8+,7-,6-,5-,4-;Path_constraints_satisfied=
